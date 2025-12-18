@@ -1,4 +1,5 @@
 # PROJECT CLONING 🚀
+
 To view the following project, you can open the file named index.html, which will show you the landing page. To obtain this file, you will need to do the following:
 
 - Create an empty folder.
@@ -6,6 +7,8 @@ To view the following project, you can open the file named index.html, which wil
 - Inside the folder, initialize Git with the command: "git init"
 
 - Once there, you can run the command: "git clone https://github.com/Cayuro/Cayuro.git" which will clone the repository where this page is located.
+
+- U can see a branch - (a folder) - with the name Prueba_HTML_CSS, there u can click and open, here u can see a file HTML with the name index.html, and the ecommerce-styles.css tjat is the name of the landing-page that we use for the Style with CSS program.
 
 # PROJECT VISUALIZATION
 

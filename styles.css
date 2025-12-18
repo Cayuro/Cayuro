@@ -1,0 +1,101 @@
+/* ===== Reset & base ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f6f7fb;
+  color: #333;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* ===== Header ===== */
+.header {
+  background: #1e293b;
+  color: white;
+  padding: 1rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column; /* mobile first */
+  gap: 0.5rem;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.nav a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* ===== Main Layout ===== */
+.layout {
+  padding: 1rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* ===== Section ===== */
+.posts {
+  display: grid;
+  gap: 1rem;
+}
+
+/* ===== Articles ===== */
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+/* ===== Aside ===== */
+.aside {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* ===== Desktop ===== */
+@media (min-width: 768px) {
+  .nav {
+    flex-direction: row; /* Flex */
+    gap: 1rem;
+  }
+
+  .layout {
+    grid-template-columns: 3fr 1fr; /* Grid */
+  }
+
+  .posts {
+    grid-template-columns: repeat(3, 1fr); /* Grid */
+  }
+}
+/* ===== Large Screens ===== */
+@media (min-width: 1200px) {
+  .posts {
+    grid-template-columns: repeat(4, 1fr); /* Grid */
+  }
+}

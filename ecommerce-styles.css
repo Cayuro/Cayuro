@@ -1,0 +1,297 @@
+/* ============================================
+   VARIABLES CSS
+   ============================================ */
+:root {
+  --color-primary: #0066ff;
+  --color-secondary: #00d4ff;
+  --color-dark: #1a1a1a;
+  --color-text: #333;
+  --color-light: #666;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f5f5f5;
+  --color-sale: #ff3d00;
+
+  --spacing: 1rem;
+  --spacing-large: 2rem;
+}
+
+/* ============================================
+   RESET
+   ============================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ============================================
+   HEADER
+   FLEXBOX: Logo y navegación horizontal
+   ============================================ */
+header {
+  background: var(--color-dark);
+  color: white;
+  padding: var(--spacing);
+  position: sticky;
+  top: 0;
+
+  /* FLEXBOX: Distribuye logo y nav */
+  display: flex;
+  justify-content: space-between; /* Logo izquierda, nav derecha */
+  align-items: center; /* Centra verticalmente */
+  flex-wrap: wrap;
+  gap: var(--spacing);
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav {
+  /* FLEXBOX: Links horizontales */
+  display: flex;
+  gap: var(--spacing-large);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--color-secondary);
+}
+
+/* ============================================
+   HERO BANNER
+   ============================================ */
+.hero {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  color: white;
+  padding: var(--spacing-large);
+  text-align: center;
+  min-height: 300px;
+
+  /* FLEXBOX: Centra el contenido */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing);
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* ============================================
+   MAIN
+   ============================================ */
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: var(--spacing-large);
+}
+
+section {
+  margin-bottom: var(--spacing-large);
+}
+
+section h2 {
+  font-size: 1.5rem;
+  color: var(--color-dark);
+  margin-bottom: var(--spacing);
+  text-align: center;
+}
+
+/* ============================================
+   CATEGORÍAS
+   CSS GRID: Grid de categorías
+   ============================================ */
+.categories-grid {
+  /* GRID: Columnas responsivas */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /*
+    auto-fit = Ajusta automáticamente el número de columnas
+    minmax(200px, 1fr) = Cada categoría mínimo 200px
+  */
+  gap: var(--spacing);
+}
+
+.category {
+  background: var(--color-bg-alt);
+  padding: var(--spacing-large);
+  border-radius: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: transform 0.3s;
+}
+
+.category:hover {
+  transform: translateY(-5px);
+}
+
+.category span {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: var(--spacing);
+}
+
+.category h3 {
+  font-size: 1.2rem;
+  color: var(--color-dark);
+}
+
+/* ============================================
+   PRODUCTOS
+   CSS GRID: Grid de productos
+   ============================================ */
+.products-grid {
+  /* GRID: Productos en columnas responsivas */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  /*
+    auto-fill = Llena con tantas columnas como quepan
+    minmax(280px, 1fr) = Cada producto mínimo 280px
+  */
+  gap: var(--spacing-large);
+}
+
+.product {
+  background: var(--color-bg);
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+
+  /* FLEXBOX: Organiza imagen e info */
+  display: flex;
+  flex-direction: column;
+}
+
+.badge {
+  position: absolute;
+  top: var(--spacing);
+  right: var(--spacing);
+  background: #00c853;
+  color: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.badge.sale {
+  background: var(--color-sale);
+}
+
+.product img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: var(--spacing);
+
+  /* FLEXBOX: Organiza contenido interno */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.product h3 {
+  font-size: 1.1rem;
+  color: var(--color-dark);
+}
+
+.product p {
+  color: var(--color-light);
+  font-size: 0.9rem;
+  margin-bottom: auto; /* Empuja el precio al fondo */
+}
+
+.price {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  font-weight: 700;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 0.5rem;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+footer {
+  background: var(--color-dark);
+  color: white;
+  text-align: center;
+  padding: var(--spacing-large);
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+/* MÓVILES: hasta 768px */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; /* Logo y nav apilados */
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column; /* Links verticales */
+    gap: var(--spacing);
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr; /* 1 columna */
+  }
+}
+
+/* TABLETS: 768px - 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+  }
+}
+
+/* ESCRITORIO: más de 1024px */
+@media (min-width: 1024px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+  }
+
+  .categories-grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+  }
+}

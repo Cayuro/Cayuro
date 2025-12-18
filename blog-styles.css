@@ -1,0 +1,286 @@
+/* ============================================
+   VARIABLES CSS
+   ============================================ */
+:root {
+  --color-primary: #1a1a1a;
+  --color-accent: #e63946;
+  --color-text: #333;
+  --color-light: #666;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f8f9fa;
+
+  --spacing: 1rem;
+  --spacing-large: 2rem;
+}
+
+/* ============================================
+   RESET
+   ============================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ============================================
+   HEADER
+   FLEXBOX: Logo y navegación
+   ============================================ */
+header {
+  background: var(--color-bg);
+  border-bottom: 1px solid #e0e0e0;
+  padding: var(--spacing);
+  position: sticky;
+  top: 0;
+
+  /* FLEXBOX: Distribuye h1 y nav */
+  display: flex;
+  justify-content: space-between; /* h1 izquierda, nav derecha */
+  align-items: center; /* Centra verticalmente */
+  flex-wrap: wrap; /* Se ajusta en móvil */
+  gap: var(--spacing);
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: var(--color-primary);
+}
+
+nav {
+  /* FLEXBOX: Links horizontales */
+  display: flex;
+  gap: var(--spacing-large);
+}
+
+nav a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--color-accent);
+}
+
+/* ============================================
+   MAIN
+   CSS GRID: Contenido principal + Sidebar
+   ============================================ */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-large);
+
+  /* GRID: Dos columnas (contenido + sidebar) */
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  /*
+    1fr = Contenido principal (toma espacio disponible)
+    300px = Sidebar (ancho fijo)
+  */
+  gap: var(--spacing-large); /* Espacio entre columnas */
+}
+
+/* ============================================
+   ARTÍCULOS
+   CSS GRID: Tarjetas de artículos
+   ============================================ */
+section {
+  grid-column: 1; /* Ocupa primera columna del grid principal */
+}
+
+section h2 {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing);
+  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 0.5rem;
+}
+
+.articles-grid {
+  /* GRID: Artículos en columnas responsivas */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  /*
+    auto-fill = Llena el espacio con columnas
+    minmax(280px, 1fr) = Cada artículo mínimo 280px
+  */
+  gap: var(--spacing-large);
+}
+
+article {
+  background: var(--color-bg);
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  /* FLEXBOX: Organiza imagen y contenido */
+  display: flex;
+  flex-direction: column; /* Imagen arriba, contenido abajo */
+}
+
+article img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.article-content {
+  padding: var(--spacing);
+
+  /* FLEXBOX: Organiza elementos internos */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.category {
+  color: var(--color-accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+article h3 {
+  font-size: 1.2rem;
+  color: var(--color-primary);
+}
+
+article p {
+  color: var(--color-light);
+  font-size: 0.95rem;
+}
+
+article time {
+  color: var(--color-light);
+  font-size: 0.85rem;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 0.5rem;
+  margin-top: auto; /* Empuja el tiempo al fondo */
+}
+
+/* ============================================
+   SIDEBAR
+   ============================================ */
+aside {
+  grid-column: 2; /* Segunda columna del grid principal */
+}
+
+.widget {
+  background: var(--color-bg-alt);
+  padding: var(--spacing);
+  border-radius: 0.5rem;
+  margin-bottom: var(--spacing);
+}
+
+.widget h3 {
+  font-size: 1.2rem;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing);
+}
+
+.widget form {
+  /* FLEXBOX: Input y botón apilados */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.widget input {
+  padding: 0.75rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+.widget button {
+  background: var(--color-accent);
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.widget button:hover {
+  background: #d62839;
+}
+
+.widget ul {
+  list-style: none;
+}
+
+.widget li {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.widget a {
+  display: block;
+  padding: 0.5rem 0;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.widget a:hover {
+  color: var(--color-accent);
+  padding-left: 0.5rem;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+footer {
+  background: var(--color-primary);
+  color: white;
+  text-align: center;
+  padding: var(--spacing-large);
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+/* MÓVILES: hasta 768px */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; /* Logo y nav apilados */
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column; /* Links verticales */
+    gap: var(--spacing);
+  }
+
+  main {
+    grid-template-columns: 1fr; /* Una sola columna */
+  }
+
+  aside {
+    grid-column: 1; /* Sidebar debajo del contenido */
+  }
+
+  .articles-grid {
+    grid-template-columns: 1fr; /* Un artículo por fila */
+  }
+}
+
+/* TABLETS: 768px - 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  main {
+    grid-template-columns: 1fr 250px; /* Sidebar más estrecho */
+  }
+}

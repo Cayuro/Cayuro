@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="portfolio-styles.css">
+</head>
+<body>
+  <!-- HEADER: Encabezado principal con información de perfil -->
+  <header>
+    <img src="/images/image.png" alt="Foto de perfil">
+    <h1>Sara Lawrence</h1>
+    <p>Design in San Francisco</p>
+  </header>
+
+  <!-- NAV: Navegación principal del sitio -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <!-- MAIN: Contenido principal -->
+  <main>
+    
+    <!-- SECTION: Acerca de mí -->
+    <section id="about" class="section">
+      <h2 class="section-title">About</h2>
+      <p class="about-text">
+        I'm a passionate UX designer striving to create intuitive and engaging experiences. 
+        I'm a big believer that things can always be simpler than we think.
+      </p>
+      <!-- Eliminado botón interactivo que requería JavaScript -->
+    </section>
+
+    <!-- SECTION: Experiencia laboral -->
+    <section id="experience" class="section">
+      <h2 class="section-title">Work Experience</h2>
+      
+      <article class="job-item">
+        <time class="job-years">2017 — Now</time>
+        <div class="job-details">
+          <h3 class="job-title">Senior Designer at Magic Design Co</h3>
+          <p class="job-location">San Francisco, CA</p>
+        </div>
+      </article>
+
+      <article class="job-item">
+        <time class="job-years">2015 — 2017</time>
+        <div class="job-details">
+          <h3 class="job-title">Junior Designer at Creative Co</h3>
+          <p class="job-location">Atlanta, GA</p>
+        </div>
+      </article>
+
+      <article class="job-item">
+        <time class="job-years">2014 — 2015</time>
+        <div class="job-details">
+          <h3 class="job-title">Intern at Design Hub</h3>
+          <p class="job-location">New York, NY</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- SECTION: Proyectos -->
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+      
+      <div class="projects-grid">
+        <figure class="project-card">
+          <img src="/placeholder.svg?height=300&width=400" alt="Brand Identity Project">
+          <figcaption>Brand Identity</figcaption>
+        </figure>
+        <figure class="project-card">
+          <img src="/placeholder.svg?height=300&width=400" alt="Mobile App UI">
+          <figcaption>Mobile App UI</figcaption>
+        </figure>
+        <figure class="project-card">
+          <img src="/placeholder.svg?height=300&width=400" alt="Web Platform">
+          <figcaption>Web Platform</figcaption>
+        </figure>
+        <figure class="project-card">
+          <img src="/placeholder.svg?height=300&width=400" alt="Dashboard Design">
+          <figcaption>Dashboard Design</figcaption>
+        </figure>
+        <figure class="project-card">
+          <img src="/placeholder.svg?height=300&width=400" alt="Illustration Set">
+          <figcaption>Illustration Set</figcaption>
+        </figure>
+        <figure class="project-card">
+          <img src="/placeholder.svg?height=300&width=400" alt="Product Design">
+          <figcaption>Product Design</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- SECTION: CONTACTO -->
+    <section id="contact" class="section">
+      <h2 class="section-title">Get In Touch</h2>
+      <p>Let's work together on your next project.</p>
+      <!-- Convertido botón en enlace mailto (no requiere JavaScript) -->
+      <a href="mailto:contacto@ejemplo.com" class="btn-primary">Contact Me</a>
+      <p id="contactMessage" class="hidden">¡Gracias por tu interés! Te contactaré pronto.</p>
+    </section>
+
+  </main>
+
+  <!-- FOOTER: Pie de página -->
+  <footer class="footer">
+    <p>&copy; 2025 Sara Lawrence. All rights reserved.</p>
+  </footer>
+
+  <!-- Eliminada referencia a JavaScript -->
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Blog - Artículos y Reflexiones</title>
+  <link rel="stylesheet" href="blog-styles.css">
+</head>
+<body>
+  
+  <!-- HEADER CON NAVEGACIÓN -->
+  <header>
+    <h1>Mi Blog</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#articulos">Artículos</a>
+      <a href="#sobre-mi">Sobre mí</a>
+    </nav>
+  </header>
+
+  <!-- HERO / ARTÍCULO DESTACADO -->
+  <section class="hero-article">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <span class="hero-category">Destacado</span>
+        <h2 class="hero-title">Cómo mejorar tu productividad en 2024</h2>
+        <p class="hero-excerpt">
+          Descubre las estrategias más efectivas para maximizar tu tiempo y lograr más con menos esfuerzo.
+        </p>
+        <a href="#" class="btn-hero">Leer artículo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENEDOR PRINCIPAL -->
+  <main class="container">
+    
+    <!-- GRID DE ARTÍCULOS -->
+    <section class="articles-section">
+      <h2 class="section-title">Artículos Recientes</h2>
+      
+      <!-- Grid responsivo de artículos -->
+      <div class="articles-grid">
+        
+        <!-- Artículo 1 -->
+        <article class="article-card">
+          <img src="/placeholder.svg?height=250&width=400" alt="Artículo sobre tecnología" class="article-image">
+          <div class="article-content">
+            <span class="article-category">Tecnología</span>
+            <h3 class="article-title">Las tendencias tecnológicas que definirán el futuro</h3>
+            <p class="article-excerpt">
+              Exploramos las innovaciones que están transformando nuestra manera de trabajar y vivir.
+            </p>
+            <div class="article-meta">
+              <span class="article-date">15 Dic 2024</span>
+              <span class="article-reading">5 min lectura</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Artículo 2 -->
+        <article class="article-card">
+          <img src="/placeholder.svg?height=250&width=400" alt="Artículo sobre diseño" class="article-image">
+          <div class="article-content">
+            <span class="article-category">Diseño</span>
+            <h3 class="article-title">Principios de diseño que todo creativo debe conocer</h3>
+            <p class="article-excerpt">
+              Una guía completa sobre los fundamentos del buen diseño y cómo aplicarlos en tus proyectos.
+            </p>
+            <div class="article-meta">
+              <span class="article-date">12 Dic 2024</span>
+              <span class="article-reading">7 min lectura</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Artículo 3 -->
+        <article class="article-card">
+          <img src="/placeholder.svg?height=250&width=400" alt="Artículo sobre productividad" class="article-image">
+          <div class="article-content">
+            <span class="article-category">Productividad</span>
+            <h3 class="article-title">Mi rutina matutina para empezar el día con energía</h3>
+            <p class="article-excerpt">
+              Descubre cómo estructuro mis mañanas para tener días más productivos y enfocados.
+            </p>
+            <div class="article-meta">
+              <span class="article-date">10 Dic 2024</span>
+              <span class="article-reading">4 min lectura</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Artículo 4 -->
+        <article class="article-card">
+          <img src="/placeholder.svg?height=250&width=400" alt="Artículo sobre negocios" class="article-image">
+          <div class="article-content">
+            <span class="article-category">Negocios</span>
+            <h3 class="article-title">Cómo construir una marca personal sólida</h3>
+            <p class="article-excerpt">
+              Estrategias efectivas para destacar en tu industria y construir una presencia memorable.
+            </p>
+            <div class="article-meta">
+              <span class="article-date">8 Dic 2024</span>
+              <span class="article-reading">6 min lectura</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Artículo 5 -->
+        <article class="article-card">
+          <img src="/placeholder.svg?height=250&width=400" alt="Artículo sobre viajes" class="article-image">
+          <div class="article-content">
+            <span class="article-category">Viajes</span>
+            <h3 class="article-title">10 destinos que debes visitar antes de 2025</h3>
+            <p class="article-excerpt">
+              Una selección de lugares increíbles que combinan cultura, naturaleza y experiencias únicas.
+            </p>
+            <div class="article-meta">
+              <span class="article-date">5 Dic 2024</span>
+              <span class="article-reading">8 min lectura</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Artículo 6 -->
+        <article class="article-card">
+          <img src="/placeholder.svg?height=250&width=400" alt="Artículo sobre salud" class="article-image">
+          <div class="article-content">
+            <span class="article-category">Salud</span>
+            <h3 class="article-title">Recetas saludables para profesionales ocupados</h3>
+            <p class="article-excerpt">
+              Comidas nutritivas que puedes preparar en menos de 30 minutos sin sacrificar el sabor.
+            </p>
+            <div class="article-meta">
+              <span class="article-date">3 Dic 2024</span>
+              <span class="article-reading">5 min lectura</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SIDEBAR: Newsletter y categorías -->
+    <aside class="sidebar">
+      <div class="widget newsletter-widget">
+        <h3 class="widget-title">Suscríbete al Newsletter</h3>
+        <p>Recibe las últimas actualizaciones directamente en tu correo.</p>
+        <!-- Formulario con action para envío sin JavaScript -->
+        <form class="newsletter-form" action="https://formspree.io/f/tu-id" method="POST">
+          <input type="email" name="email" placeholder="tu@email.com" class="newsletter-input" required>
+          <button type="submit" class="btn-subscribe">Suscribirme</button>
+        </form>
+      </div>
+
+      <div class="widget categories-widget">
+        <h3 class="widget-title">Categorías</h3>
+        <ul class="categories-list">
+          <li><a href="#">Tecnología <span>(12)</span></a></li>
+          <li><a href="#">Diseño <span>(8)</span></a></li>
+          <li><a href="#">Productividad <span>(15)</span></a></li>
+          <li><a href="#">Negocios <span>(10)</span></a></li>
+          <li><a href="#">Viajes <span>(6)</span></a></li>
+          <li><a href="#">Salud <span>(9)</span></a></li>
+        </ul>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Mi Blog. Todos los derechos reservados.</p>
+      <div class="social-links">
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

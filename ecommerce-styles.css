@@ -448,10 +448,13 @@ footer p{
   .foot-links p{
     margin-top: 3rem;
   }
+  div{
+    overflow: hidden;
+  }
 }
 
-/* TABLETS: 768px - 1024px */
-@media (min-width: 768px) and (max-width: 1024px) {
+/* TABLETS: 768px - 1040px  PROBLEMA CON SIGN UP Y LOGIN*/ 
+@media (min-width: 768px) and (max-width: 1040px) {
   .products-grid {
     grid-template-columns: repeat(2, 1fr); /* 2 columnas */
   }
@@ -471,4 +474,7 @@ header {
   display: flex;
   gap: 0.5rem;
 }
+  nav div button{
+    padding: 0.5rem;
+  } 
 }

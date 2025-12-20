@@ -2,6 +2,7 @@
    VARIABLES CSS
    ============================================ */
 :root {
+  --color-hover: #37ff00;
   --color-dark: #263238;
   --color-text: #333;
   --color-light: #666;
@@ -71,7 +72,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--color-secondary);
+  color: var(--color-hover);
 }
 .dots{
   justify-self: flex-end;
@@ -120,10 +121,10 @@ button.center{
    HERO BANNER
    ============================================ */
 .hero-banner {
-  padding: var(--spacing-large);
+
   text-align: center;
   min-height: 300px;
-
+  margin: auto;
   /* FLEXBOX: Centra el contenido */
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -187,6 +188,8 @@ section h2 {
   */
   gap: var(--spacing);
   justify-content: center;
+  justify-items: center;
+  margin-bottom: var(--spacing-large);
 }
 .community-grid {
   /* GRID: Columnas responsivas */
@@ -198,7 +201,9 @@ section h2 {
   */
   gap: var(--spacing);
   justify-content: center;
+  margin-bottom: var(--spacing-large);
 }
+
 .category {
   
   padding: var(--spacing);
@@ -228,11 +233,22 @@ section h2 {
 .normal-banner {
   display:flex;
   background: var(--color-bg-alt);
-  text-align: start;
   align-items: center;
-  justify-items: space-between;
-  column-gap: 5%;
+  justify-content: center;
+  column-gap: 5rem;
   /* FLEXBOX: Centra el contenido */
+}
+.normal-banner div img{
+  width: 80%;
+  height: auto;
+  grid-row: span 2;
+  align-self: center;
+}
+.normal-banner div h3{
+  align-self: flex-end;
+}
+.normal-banner div p{
+  align-self: flex-start;
 }
 .grid-info{
   display: grid;
@@ -264,6 +280,7 @@ section.grid-template{
 .clients-section{
   display: flex;
   flex-direction: column;
+  margin-bottom: var(--spacing-large);
 }
 .clients-section p{
   align-self: center;
@@ -438,4 +455,20 @@ footer p{
   .products-grid {
     grid-template-columns: repeat(2, 1fr); /* 2 columnas */
   }
+header {
+    background: var(--color-bg-alt);
+    color: rgb(0, 0, 0);
+    padding: var(--spacing);
+    top: 0;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--spacing);
+}
+  nav {
+  /* FLEXBOX: Links horizontales */
+  display: flex;
+  gap: 0.5rem;
+}
 }

@@ -104,11 +104,17 @@ button {
 }
 button:hover{
   transform: translate(10px);
+  background-color: var(--color-hover);
   cursor: pointer;
+  font-size: 1.5rem;
 }
+
 button.Login{
   background-color: inherit;
   color: var(--color-green);
+}
+button.Login:hover{
+  color: var(--color-hover);
 }
 button.center{
   display: flex;
@@ -475,6 +481,6 @@ header {
   gap: 0.5rem;
 }
   nav div button{
-    padding: 0.5rem;
+    padding: auto;
   } 
 }

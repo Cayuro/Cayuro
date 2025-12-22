@@ -187,27 +187,32 @@ section h2 {
 .clients-grid {
   /* GRID: Columnas responsivas */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(45px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
   /*
     auto-fit = Ajusta automáticamente el número de columnas
     minmax(200px, 1fr) = Cada categoría mínimo 200px
   */
   gap: var(--spacing);
   justify-content: center;
-  justify-items: center;
+  justify-items: space-around;
   margin-bottom: var(--spacing-large);
 }
+
 .community-grid {
   /* GRID: Columnas responsivas */
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(45px, 1fr));
-  /*
-    auto-fit = Ajusta automáticamente el número de columnas
-    minmax(200px, 1fr) = Cada categoría mínimo 200px
-  */
+  display: flex;
   gap: var(--spacing);
   justify-content: center;
   margin-bottom: var(--spacing-large);
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+.community-grid div img{
+  width: 80px;
+  height: auto;
+  justify-self: center;
+  align-self: center;
 }
 
 .category {
@@ -292,11 +297,15 @@ section.grid-template{
   align-self: center;
   justify-self: center;
 }
-
+.center-community{
+  justify-self: center;
+  align-self: center;
+}
 section.grid-crazy {
   display: grid;
   grid-template-columns: repeat(auto-fit,1fr);
   grid-template-rows: repeat(auto-fit,auto);
+  column-gap: var(--spacing-large);
 }
 section.grid-crazy div.grid-small-columns{
   grid-column: span 3;
@@ -395,6 +404,10 @@ footer p{
   nav {
     flex-direction: column; /* Links verticales */
     gap: var(--spacing);
+  }
+
+  .img-center {
+    grid-column: span 2;
   }
 
   .hero h2 {

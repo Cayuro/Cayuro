@@ -214,7 +214,9 @@ section h2 {
   justify-self: center;
   align-self: center;
 }
-
+.community-grid div{
+  box-shadow: 0 3px 90% rgba(0, 0, 0, 0.9);
+}
 .category {
   
   padding: var(--spacing);
@@ -223,6 +225,15 @@ section h2 {
   text-decoration: none;
   color: var(--color-text);
   transition: transform 0.3s;
+  justify-items: center;
+}
+
+.ultimo{
+  order:1;
+  grid-row: 3;
+  justify-items: end;
+  justify-self: end;
+  grid-column: -1;
 }
 
 .category:hover {

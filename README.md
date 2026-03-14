@@ -4,8 +4,9 @@
 </p>
 
 ## Colombia 🇨🇴
+---
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=F0F0F0&center=true&vCenter=true&width=600&lines=FullStack+Developer+%7C+Colombia" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=4FC3F7&center=true&vCenter=true&width=600&lines=FullStack+Developer+%7C+Colombia" />
   <br/>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=E84343&center=true&vCenter=true&width=600&lines=Java+%2B+SpringBoot" />
   <br/>
@@ -18,10 +19,10 @@
 
 ## 🧑‍💻 Sobre mí
 
-- 🔭 Actualmente trabajando en **uti-bunna** — sistema de carpooling para la comunidad Riwi
+- 🔭 Actualmente trabajando en **uti-bunna** — sistema de transporte inteligente para la comunidad Riwi
 - 🌱 Aprendiendo **Inteligencia Artificial para Devs** · RAG · Embeddings · Agentes · TensorFlow
 - 🤝 Me interesa colaborar en proyectos con **impacto social y comunitario**
-- 💬 Pregúntame sobre **Node.js, Express, arquitecturas REST, PostGIS o MongoDB**
+- 💬 Pregúntame sobre **Java, Springboot, Node.js, Express, arquitecturas REST, PostGIS o MongoDB**
 - 🏫 Parte de la comunidad **Riwi**
 
 ---
@@ -76,6 +77,38 @@ Stack: Node.js · Express · PostgreSQL · MongoDB · PostGIS · JWT · Docker
 ```
 
 ---
+
+## 🗂️ Otros proyectos
+
+### 🎓 UniGestión — Sistema de gestión universitaria
+REST API con arquitectura híbrida para una universidad. Pipeline ETL que migra datos CSV a PostgreSQL (estudiantes, cursos, matrículas normalizadas) y MongoDB (transcripciones académicas completas por estudiante como documento embebido).
+```
+Stack: Node.js · Express · PostgreSQL · MongoDB · Mongoose · Docker
+```
+
+---
+
+### 🏥 SaludPlus — Sistema médico
+API para clínica con pacientes, médicos, especialidades y citas. PostgreSQL maneja integridad relacional. MongoDB almacena historial clínico embebido por paciente. Cuando un médico se actualiza en PostgreSQL, el cambio se propaga automáticamente a los documentos en MongoDB.
+```
+Stack: Node.js · Express · PostgreSQL · MongoDB · Docker
+```
+
+---
+
+### 🛒 Tienda & Transacciones — API de comercio
+API REST con normalización hasta 3FN (ciudad, categoría, proveedor separados). MongoDB guarda historial de órdenes por cliente. Reportes de top productos por categoría y top proveedores por volumen vendido.
+```
+Stack: Node.js · Express · PostgreSQL · MongoDB · Docker
+```
+
+---
+
+### 🍽️ RestorApp — Sistema de pedidos (Frontend puro)
+SPA sin frameworks con dos roles: cliente crea pedidos desde el menú, admin gestiona y cambia estados. Routing propio, estado centralizado, componentes y vistas separados, todo en JavaScript vanilla.
+```
+Stack: JavaScript · HTML · CSS · LocalStorage
+```
 
 ## 📐 Arquitectura que manejo
 

@@ -1,9 +1,12 @@
-# Hola, soy <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F7DF1E&center=true&vCenter=true&width=500&lines=Fullstack+Developer+%7C+Colombia;Node.js+%2B+Express+%2B+PostgreSQL;MongoDB+%7C+PostGIS+%7C+Docker;Construyendo+para+la+comunidad+Riwi" />
+# Hola, soy
+  <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=4000&pause=1500&color=FF6B2B&center=true&vCenter=true&width=600&lines=Juan+Esteban+G%C3%B3mez+Zuluaga" />
 </p>
-### Fullstack Developer · Colombia 🇨🇴
 
-> *Construyendo herramientas que resuelven problemas reales para comunidades reales.*
+## Colombia 🇨🇴
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=F0F0F0&center=true&vCenter=true&width=600&lines=FullStack+Developer+%7C+Colombia" />
+> </p>
 
 ---
 

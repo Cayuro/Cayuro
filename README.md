@@ -1,4 +1,6 @@
-# Hola, soy Juan Esteban Gómez Zuluaga👋
+# Hola, soy <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F7DF1E&center=true&vCenter=true&width=500&lines=Fullstack+Developer+%7C+Colombia;Node.js+%2B+Express+%2B+PostgreSQL;MongoDB+%7C+PostGIS+%7C+Docker;Construyendo+para+la+comunidad+Riwi" />
+</p>
 ### Fullstack Developer · Colombia 🇨🇴
 
 > *Construyendo herramientas que resuelven problemas reales para comunidades reales.*

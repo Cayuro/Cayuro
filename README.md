@@ -3,7 +3,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=4000&pause=1500&color=FF6B2B&center=true&vCenter=true&width=600&lines=Juan+Esteban+G%C3%B3mez+Zuluaga" />
 </p>
 
-## Colombia 🇨🇴
+## Construyó soluciones tecnologicas con un enfoque social 🇨🇴
 ---
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=4FC3F7&center=true&vCenter=true&width=600&lines=FullStack+Developer+%7C+Colombia" />

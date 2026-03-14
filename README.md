@@ -5,8 +5,14 @@
 
 ## Colombia 🇨🇴
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=F0F0F0&center=true&vCenter=true&width=600&lines=FullStack+Developer+%7C+Colombia" />
-> </p>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=F0F0F0&center=true&vCenter=true&width=600&lines=FullStack+Developer+%7C+Colombia" />
+  <br/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=E84343&center=true&vCenter=true&width=600&lines=Java+%2B+SpringBoot" />
+  <br/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=43D17A&center=true&vCenter=true&width=600&lines=Node.js+%2B+Express" />
+  <br/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=F0DB4F&center=true&vCenter=true&width=600&lines=HTML+%2B+CSS+%2B+JavaScript" />
+</p>
 
 ---
 

@@ -3,7 +3,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=4000&pause=1500&color=FF6B2B&center=true&vCenter=true&width=600&lines=Juan+Esteban+G%C3%B3mez+Zuluaga" />
 </p>
 
-##       Apasionado por hacer parte de retos que sumen valor a la comunidad
+##         Apasionado por hacer parte de retos que sumen valor a la comunidad
 
 ---
 <p align="center">

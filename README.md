@@ -1,4 +1,4 @@
-# Hola, soy JJ 👋
+# Hola, soy Juan Esteban Gómez Zuluaga👋
 ### Fullstack Developer · Colombia 🇨🇴
 
 > *Construyendo herramientas que resuelven problemas reales para comunidades reales.*

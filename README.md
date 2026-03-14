@@ -125,8 +125,8 @@ validación con esquemas AJV y middlewares de autenticación/autorización por r
 
 <p>
   <img src="https://skillicons.dev/icons?i=github" alt="GitHub" height="20"/>
-  GitHub: <strong>@jj</strong>
+  GitHub: <strong>@CAYURO</strong>
   &nbsp;&nbsp;
   <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="20"/>
-  LinkedIn: <em>agrega tu link aquí</em>
+  LinkedIn: <em>https://www.linkedin.com/in/juan-esteban-gómez-zuluaga-0b46262a7?utm_source=share_via&utm_content=profile&utm_medium=member_ios</em>
 </p>

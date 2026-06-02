@@ -64,8 +64,8 @@
 ---
 
 # 📊 GitHub Stats:
-![](https://streak-stats.demolab.com/?user=jajodisant&theme=dark&hide_border=true)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=jajodisant&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+![](https://streak-stats.demolab.com/?user=cayuro&theme=dark&hide_border=true)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=cayuro&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 ---
 
 ## 🚀 Proyecto destacado — uti-bunna

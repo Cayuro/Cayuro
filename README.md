@@ -63,6 +63,11 @@
 
 ---
 
+# 📊 GitHub Stats:
+![](https://streak-stats.demolab.com/?user=cayuro&theme=dark&hide_border=true)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=cayuro&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+---
+
 ## 🚀 Proyecto destacado — uti-bunna
 
 Sistema de **carpooling inteligente** para la comunidad Riwi. Arquitectura híbrida con doble base de datos:

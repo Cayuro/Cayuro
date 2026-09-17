@@ -25,6 +25,7 @@
 - 🤝 Me interesa colaborar en proyectos con **impacto social y comunitario**
 - 💬 Pregúntame sobre **Java, Springboot, Node.js, Express, arquitecturas REST, PostGIS o MongoDB**
 - 🏫 Parte de la comunidad **Riwi**
+- 🏫 Parte de la comunidad **ITM - INSTITUTO TECNOLOGICO METROPOLITANO**
 
 ---
 

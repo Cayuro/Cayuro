@@ -7,7 +7,7 @@
 
 ---
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=10000&pause=800&color=4FC3F7&center=true&vCenter=true&width=600&lines=FullStack+Developer+%7C+Colombia" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=10000&pause=10000&color=4FC3F7&center=true&vCenter=true&width=600&lines=FullStack+Developer+%7C+Colombia" />
   <br/>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=10000&pause=800&color=E84343&center=true&vCenter=true&width=600&lines=Java+%2B+SpringBoot" />
   <br/>
